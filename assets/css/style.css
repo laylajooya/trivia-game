@@ -1,4 +1,40 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
 }
+
+#buttons {
+    padding: 20px;
+}
+
+#start {
+    padding: 14px 40px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+#submit {
+    padding: 14px 40px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.time-remaining {
+    padding: 60px;
+}
+
+.trivia-container {
+    padding: 20px;
+}
+
+

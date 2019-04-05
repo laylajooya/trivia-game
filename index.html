@@ -7,6 +7,63 @@
 </head>
 
 <body>
+    
+    <header>Trivia!</header>
+
+    <div id="buttons">
+        <button id="start">START</button>
+    </div>
+
+    <div class="time-remaining">Time Remaining: 
+        <span id="timer"></span>
+    </div>
+
+        <div class="trivia-container">
+
+            <div id="questions">
+
+            <div class="question-1">
+                <h4>What year was the Arctic Monkeys formed?</h4>
+            </div>
+            <div class="choices">
+                <input type="radio" name="q1" value="true"> 2002
+                <input type="radio" name="q1" value="false"> 1993
+                <input type="radio" name="q1" value="false"> 2001
+            </div>
+
+            <div class="question-2">
+                <h4>What is the title of their debut album?</h4>
+            </div>
+            <div class="choices">
+                <input type="radio" name="q2" value="false"> AM
+                <input type="radio" name="q2" value="false"> Humbug
+                <input type="radio" name="q2" value="true"> Whatever People Say I Am, That's What I'm Not</br>
+            </div>
+
+            <div class="question-3">
+                <h4>Where are the Arctic Monkeys from?</h4>
+            </div>
+            <div class="choices">
+                <input type="radio" name="q3" value="false"> London</br>
+                <input type="radio" name="q3" value="true"> Sheffield</br>
+                <input type="radio" name="q3" value="false"> Manchester</br>
+            </div>
+
+            </div>
+        
+            <div id="buttons">
+                    <button id="submit">Submit</button>
+            </div>
+
+            <div id="answers">
+                Correct: <span id="correctAns"></span><br>
+                Incorrect: <span id="incorrectAns"></span><br>
+                Unanswered: <span id="unansweredQ"></span>
+            </div>
+
+        </div>
+    </div>
+    
 
 
 
