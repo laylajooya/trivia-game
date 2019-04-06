@@ -7,8 +7,12 @@ body {
     color: white;
 }
 
+header {
+    font-size: 30px;
+}
+
 #buttons {
-    padding: 20px;
+    padding: 40px;
 }
 
 #start {
@@ -30,16 +34,17 @@ body {
 }
 
 .time-remaining {
-    padding: 60px;
     color: red;
+    font-size: 25px;
 }
 
 .trivia-container {
-    padding: 40px;
+    padding: 20px;
 }
 
 #answers {
     color: red;
+    font-size: 25px;
 }
 
 
