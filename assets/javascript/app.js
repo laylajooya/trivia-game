@@ -1,4 +1,4 @@
-var time = 10;
+var time = 30;
 
 var countDown;
 
@@ -45,7 +45,7 @@ function decrement(){
 function stop(){
 
     clearInterval(countDown);
-    time = 10;
+    time = 30;
 }
 
 function submit(){
