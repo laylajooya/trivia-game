@@ -65,5 +65,20 @@ function submit(){
     var falseRadio = $("input:radio[value=false]:checked");
         falseRadio = falseRadio.length;
         $("#incorrectAns").html(falseRadio);
+    
+    var unansweredCount = 0;
+    for (var i = 0; i <= 3; i++){
+        var unanswered = $("input:radio[name=q" + i + "]");
+        for (var j = 0; j < unanswered.length; j++){
+            if (unanswered[j].checked){
+                break;
+            } else if (j === unanswered.length - 1){
+                unansweredCount++;
+            }
+        }
+
+        $("#unansweredQ").html(unansweredCount);
+
+    }
 
 }
