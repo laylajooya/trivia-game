@@ -1,0 +1,50 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+header {
+    font-size: 30px;
+}
+
+#buttons {
+    padding: 40px;
+}
+
+#start {
+    padding: 14px 40px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+#submit {
+    padding: 14px 40px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.time-remaining {
+    color: red;
+    font-size: 25px;
+}
+
+.trivia-container {
+    padding: 20px;
+}
+
+#answers {
+    color: red;
+    font-size: 25px;
+}
+
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="https://seeklogo.com/images/A/arctic-monkeys-logo-13838A4A1A-seeklogo.com.png" type="image/gif" sizes="16x16">
+    <title>AM Trivia Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    
+    <header>
+        <img src="assets/images/amlogo2.png">
+        <br>
+        <h1>TRIVIA</h1>
+    </header>
+
+    <div id="buttons">
+        <button id="start">START</button>
+    </div>
+
+    <div class="time-remaining">Time Remaining: 
+        <span id="timer"></span>
+    </div>
+
+        <div class="trivia-container">
+
+            <div id="questions">
+
+            <div class="question-1">
+                <h4>What year was the Arctic Monkeys formed?</h4>
+            </div>
+            <div class="choices">
+                <input type="radio" name="q1" value="true"> 2002
+                <input type="radio" name="q1" value="false"> 1993
+                <input type="radio" name="q1" value="false"> 2001
+            </div>
+            <br>
+
+            <div class="question-2">
+                <h4>What is the title of their debut album?</h4>
+            </div>
+            <div class="choices">
+                <input type="radio" name="q2" value="false"> AM
+                <input type="radio" name="q2" value="false"> Humbug
+                <input type="radio" name="q2" value="true"> Whatever People Say I Am, That's What I'm Not</br>
+            </div>
+            <br>
+
+            <div class="question-3">
+                <h4>Where are the Arctic Monkeys from?</h4>
+            </div>
+            <div class="choices">
+                <input type="radio" name="q3" value="false"> London
+                <input type="radio" name="q3" value="true"> Sheffield
+                <input type="radio" name="q3" value="false"> Manchester
+            </div>
+            <br>
+
+            <div class="question-4">
+                <h4>What is the title of their most recent album?</h4>
+            </div>
+            <div class="choices">
+                <input type="radio" name="q4" value="false"> AM
+                <input type="radio" name="q4" value="true"> Tranquility Base Hotel & Casino
+                <input type="radio" name="q4" value="false"> Suck It and See
+            </div>
+            <br>
+
+            <div class="question-5">
+                <h4>What was their first single released in 2005?</h4>
+            </div>
+            <div class="choices">
+                <input type="radio" name="q5" value="true"> I Bet You Look Good on the Dancefloor
+                <input type="radio" name="q5" value="false"> Cornerstone
+                <input type="radio" name="q5" value="false"> Do I Wanna Know?
+            </div>
+
+            </div>
+        
+            <div id="buttons">
+                    <button id="submit">Submit</button>
+            </div>
+
+            <div id="answers">
+                Correct: <span id="correctAns"></span>
+                <br>
+                Incorrect: <span id="incorrectAns"></span>
+                <br>
+                Unanswered: <span id="unansweredQ"></span>
+            </div>
+
+        </div>
+    </div>
+    
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="assets/javascript/app.js"></script>
+
+    
+</body>
+</html>
